@@ -1,3 +1,6 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">NavigationTut</string>
+    <string name="home_menu_title">Home</string>
+    <string name="camera_menu_title">Camera</string>
+    <string name="number_of_photos"> Number of photos: %1$o</string>
 </resources>

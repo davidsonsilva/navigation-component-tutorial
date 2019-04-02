@@ -27,7 +27,7 @@ class PhotosFragment : Fragment() {
 
         arguments?.let {
             val safeArgs = PhotosFragmentArgs.fromBundle(it)
-            textView_num.text = "Number of photos: ${safeArgs.numOfPhotos}"
+            textView_num.text = getString(R.string.number_of_photos, safeArgs.numOfPhotos)
         }
     }
 
